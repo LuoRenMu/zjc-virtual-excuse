@@ -4,7 +4,7 @@
 ## 使用教程
 1. 安装python >=3.9
 2. 使用命令`pip install mitmproxy`
-3. 安装[mitmproxy-ca-cert.p12](mitmproxy-ca-cert.p12) 或 前往[mitm官網下載](http://mitm.it/)
+3. 安装ssl证书[mitmproxy-ca-cert.p12](mitmproxy-ca-cert.p12) 或 前往[mitm官網下載](http://mitm.it/)
 4. 并以管理员安装ca-cert
 5. 在redirect.py目录下 启用shell 使用命令`mitmdump -s redirect.py`
 6. 设置系统代理为127.0.0.1 端口号8080
